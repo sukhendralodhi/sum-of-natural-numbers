@@ -3,7 +3,7 @@
 int sum_natural_numbers(int x) {
   int sum=0;
   
-  for(int i = 0; i <= x; i++) {
+  for(int i = 1; i <= x; i++) {
     sum+=i;
   }
   return sum;
