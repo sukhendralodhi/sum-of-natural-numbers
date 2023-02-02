@@ -6,13 +6,14 @@ int sum_natural_numbers(int x) {
   for(int i = 0; i <= x; i++) {
     sum+=i;
   }
-  printf("Sum = %d", sum);
+  return sum;
 }
 
 int main(void) {
   int number;
   printf("Enter the number: ");
   scanf("%d",&number);
-  sum_natural_numbers(number); //calling function
+  int result = sum_natural_numbers(number); //calling function
+  printf("Sum = %d", result);
   return 0;
 }
